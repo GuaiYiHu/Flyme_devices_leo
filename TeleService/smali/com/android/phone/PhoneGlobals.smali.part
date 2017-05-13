@@ -18,7 +18,7 @@
 
     move-result-object v8
 
-    const v10, 0x1120065
+    const v10, 0x1120055
 
     invoke-virtual {v8, v10}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -37,9 +37,9 @@
 
     invoke-static {}, Lcom/android/internal/telephony/TelephonyPluginDelegate;->getInstance()Lcom/android/internal/telephony/TelephonyPluginDelegate;
 
-    move-result-object v8
+    move-result-object v10
 
-    invoke-virtual {v8, p0}, Lcom/android/internal/telephony/TelephonyPluginDelegate;->makeDefaultPhones(Landroid/content/Context;)V
+    invoke-virtual {v10, p0}, Lcom/android/internal/telephony/TelephonyPluginDelegate;->makeDefaultPhones(Landroid/content/Context;)V
 
     .line 425
     iget-object v8, p0, Lcom/android/phone/PhoneGlobals;->mHandler:Landroid/os/Handler;
