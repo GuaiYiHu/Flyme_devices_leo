@@ -24,7 +24,7 @@
 
     .prologue
     .line 26
-    const/4 v0, 0x6
+    const/4 v0, 0x7
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -61,6 +61,12 @@
     const/4 v1, 0x5
 
     const-string v2, "/data/app/me.piebridge.prevent-3.apk"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "/system/app/Brevent/Brevent.apk"
 
     aput-object v2, v0, v1
 
