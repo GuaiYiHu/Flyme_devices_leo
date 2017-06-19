@@ -727,7 +727,6 @@ service installd /system/bin/installd
 service flash_recovery /system/bin/install-recovery.sh
     class main
     oneshot
-    logcat > /data/media/0/logcat.txt
 
 service racoon /system/bin/racoon
     class main
